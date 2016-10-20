@@ -1,0 +1,48 @@
+body{
+  background-color: white;
+  font-family: monospace;
+}
+
+.title-home{
+  font-family: flag;
+  font-size: 56px;
+}
+
+.subtitle-home{
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+.mick-img{
+  margin-top: -50px;
+  float: right;
+  margin-right: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.header{
+  margin-left: 600px;
+  margin-top: 10px;
+}
+
+.cr{
+  margin-top: 600px;
+
+}
+
+#content{
+  margin-top: 5px;
+  margin-left: 400px;
+  float: left;
+  width: 750px;
+}
+
+@font-face{
+  font-family: flag;
+  src: url(fonts/flag.ttf);
+}
