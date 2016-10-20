@@ -1,0 +1,46 @@
+body{
+  font-family: Monospace;
+}
+
+.title-about{
+  font-family: flag;
+  font-size: 56px;
+  margin-top: 20px;
+}
+
+.header{
+  margin-left: 600px;
+  margin-top: 37px;
+}
+
+.link{
+  display: inline;
+  margin: 10px;
+}
+
+.active{
+  color: lightblue;
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+#content{
+  height: 79%;
+  padding-left: 600px;
+  padding-top: 200px;
+}
+
+.insta-logo{
+  width: 100px;
+  height: 100px;
+}
+
+@font-face{
+  font-family: flag;
+  src: url(fonts/flag.ttf);
+}
