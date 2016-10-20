@@ -45,6 +45,11 @@ a{
   height: 90px;
 }
 
+.yt-logo{
+  height: 100px;
+  width: 150px;
+}
+
 @font-face{
   font-family: flag;
   src: url(fonts/flag.ttf);
