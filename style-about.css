@@ -40,6 +40,11 @@ a{
   height: 100px;
 }
 
+.fb-logo{
+  width: 90px;
+  height: 90px;
+}
+
 @font-face{
   font-family: flag;
   src: url(fonts/flag.ttf);
