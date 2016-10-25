@@ -8,18 +8,26 @@
 
 <script>
 
+function readMode() {
+  document.getElementById("background").style.background = "black";
+  document.getElementById("background").style.color = "white";
+}
 
+function readModeOff() {
+  document.getElementById("background").style.color = "black";
+  document.getElementById("background").style.background = "white";
+}
 
 
 
 </script>
 
-<body>
+<body id="background">
 
 
 <div class="header">
 
-<h1 class="title-home"> MICK BOSTENS </h1>
+<h1 name="text" class="title-home"> MICK BOSTENS </h1>
 
 <ul>
   <li class="link"><a class="active" href="index.html"> Home </a></li>
@@ -36,11 +44,11 @@
 
 <img class="mick-img" src="img/mb-logo.png">
 
-
+<div class="buttons"> <button onclick="readMode()"> Click Me! </button> <button onclick="readModeOff()"> Turn Off </button> </div>
 
 
 <center>
-<p class="cr"> &copy;M.Bostens</p>
+ <p class="cr"> &copy;M.Bostens</p>
 </center>
 
 
